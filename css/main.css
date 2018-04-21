@@ -1,5 +1,6 @@
 body {
   font: 100.01% Verdana, Arial, Helvetica, sans-serif;
+  border-left: 20pt solid black;
 }
 
 * {
@@ -12,28 +13,60 @@ body {
   width: device-width;
 }
 
-.bg {
+#bg {
   background-color: black;
+  color: white;
+}
+
+a {
+  color: #BBDF07;
 }
 
 #seite {
   width: 100%;
   margin: 0 auto;
+  color: white;
+  background-color: black;
 }
 
 #head {
-  background-color: lightblue;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  background-color: black;
+  padding-top: 18pt;
+  /* Distance from text to frame line */
+  border-top: 2pt solid #BBDF07;
+  /* green line at the top */
+  margin-top: 10pt;
 }
 
 #contend {
-  background-color: lightgreen;
+  text-align: justify;
+  color: white;
+  background-color: black;
   margin-left: 250px;
+  border-top: 1pt solid #BBDF07;
+  border-left: 20pt solid black;
 }
 
 #menu {
+  text-align: justify;
+  color: white;
   float: left;
   width: 250px;
-  background-color: yellow;
+  background-color: black;
+}
+
+ul {
+  margin: 15px 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 #footer {
@@ -52,4 +85,11 @@ body {
   text-align: center;
   color: white;
   background: black;
+}
+
+#contentimg1 {
+  float: left;
+  width: 34px;
+  height: auto;
+  margin: 0.2em;
 }
